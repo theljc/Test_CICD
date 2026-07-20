@@ -11,11 +11,5 @@ public class UnrealPCGExamplesTarget : TargetRules
 		DefaultBuildSettings = BuildSettingsVersion.V5;
 
 		ExtraModuleNames.AddRange( new string[] { "UnrealPCGExamples" } );
-		RegisterModulesCreatedByRider();
-	}
-
-	private void RegisterModulesCreatedByRider()
-	{
-		ExtraModuleNames.AddRange(new string[] { "MyBlueprintNodeEditor" });
 	}
 }
