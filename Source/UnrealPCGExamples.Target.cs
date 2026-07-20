@@ -16,6 +16,6 @@ public class UnrealPCGExamplesTarget : TargetRules
 
 	private void RegisterModulesCreatedByRider()
 	{
-		// ExtraModuleNames.AddRange(new string[] { "MyBlueprintNodeEditor" });
+		ExtraModuleNames.AddRange(new string[] { "MyBlueprintNodeEditor" });
 	}
 }

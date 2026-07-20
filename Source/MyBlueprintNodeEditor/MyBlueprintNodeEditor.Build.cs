@@ -5,15 +5,6 @@ public class MyBlueprintNodeEditor : ModuleRules
     public MyBlueprintNodeEditor(ReadOnlyTargetRules Target) : base(Target)
     {
         PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
-
-        if (Target.Type == TargetType.Editor)
-        {
-            PublicDependencyModuleNames.AddRange(new string[] { 
-                "UnrealEd",
-                "KismetCompiler",
-                
-            });
-        }
         
         PublicDependencyModuleNames.AddRange(
             new string[]
@@ -31,6 +22,8 @@ public class MyBlueprintNodeEditor : ModuleRules
                 "Slate",
                 "SlateCore",
                 "BlueprintGraph",
+                "KismetCompiler",
+                "UnrealEd",
                 "UnrealPCGExamples",
             }
         );
