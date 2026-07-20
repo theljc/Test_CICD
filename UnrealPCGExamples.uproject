@@ -15,7 +15,7 @@
 		{
 			"Name": "MyBlueprintNodeEditor",
 			"Type": "Editor",
-			"LoadingPhase": "Never"
+			"LoadingPhase": "Default"
 		}
 	],
 	"Plugins": [
